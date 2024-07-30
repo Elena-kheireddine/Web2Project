@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-Web</title>
+</head>
+
+<body>
+    <header class="sticky">
+        <div>
+            <ul class="sidebar">
+                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24"
+                            viewBox="0 -960 960 960" width="24">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+                <li class="left"><a href="#contact">Contact Us</a></li>
+                <li class="left"><a href="rulesandpolicy.html" target="new">Rules & Policy</a></li>
+                <li class="left"><a href="about.html" target="new">About Us</a></li>
+                <li class="left"><a href="pricing.html" target="new">Pricing</a></li>
+                <li class="left dropdown"><a href="#" class="dropbtn">Our Classes</a>
+                    <div class="dropdown-content">
+                        <a href="aerial.html" target="new">Aerial Yoga</a>
+                        <a href="hathayoga.html" target="new">Hatha yoga</a>
+                        <a href="kidsyoga.html" target="new">Kids yoga</a>
+                        <a href="meditation.html" target="new">Meditation</a>
+                        <a href="private.html" target="new">Private class</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <a href="index2.html">
+                    <li class="right"><img class="logo" src="images/logo2.png"></li>
+                </a>
+                <li class="left menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="24" viewBox="0 -960 960 960" width="24">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+                <li class="left hideOnMobile"><a href="#contact">Contact Us</a></li>
+                <li class="left hideOnMobile"><a href="rulesandpolicy.html" target="new">Rules & Policy</a></li>
+                <li class="left hideOnMobile"><a href="about.html" target="new">About Us</a></li>
+                <li class="left hideOnMobile"><a href="pricing.html" target="new">Pricing</a></li>
+                <li class="left dropdown"><a href="#" class="dropbtn hideOnMobile">Our Classes</a>
+                    <div class="dropdown-content">
+                        <a href="aerial.html" target="new">Aerial Yoga</a>
+                        <a href="hathayoga.html" target="new">Hatha yoga</a>
+                        <a href="kidsyoga.html" target="new">Kids yoga</a>
+                        <a href="meditation.html" target="new">Meditation</a>
+                        <a href="private.html" target="new">Private class</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+
+    <div class="dark"
+        style="background-image: url(images/Helana6.jpeg); width: 100%; height: 500px; object-fit: cover;">
+        <div class="color-overlay"></div>
+        <div class="banner-text">
+            <h2>Hasbaya Yoga Center</h2><br>
+            <h3>Where Your Inner Peace Blooms</h3>
+        </div>
+    </div><br>
+
+    <div>
+        <p class="textHYC">You're never too late and never too early; always on
+            TIME. Every ending is a new begining. You can start over as many times as you want. You today will never
+            happen again. Don't waste it with a false start, and wherever life
+            plants you, BLOOM with GRACE</span>
+        </p>
+    </div><br>
+
+    <div class="row">
+        <div class="floatl">
+            <div>
+                <div>
+                    <h2 style="padding-top: 40px;" id="top">We Offer Various Yoga Services</h2>
+                    <p style="padding-top: 5px;">Check out our classes below suitable for all ages</p>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="images/Aerialadults.jpeg">
+                        <img src="images/Aerialadults.jpeg" alt="Aerial Adults" width="600" height="400">
+                    </a>
+                    <div class="desc">Aerail Adults</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="images/Aerialkids.jpeg">
+                        <img src="images/Aerialkids.jpeg" alt="Aerial kids" width="600" height="400">
+                    </a>
+                    <div class="desc">Aerial Kids</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="images/Armbalance.jpeg">
+                        <img src="images/Armbalance.jpeg" alt="Arm balance" width="600" height="400">
+                    </a>
+                    <div class="desc">Arm Balance</div>
+                </div>
+            </div>
+            <div>
+                <div class="gallery">
+                    <a target="_blank" href="images/core&glutes.jpeg">
+                        <img src="images/core&glutes.jpeg" alt="core & glutes" width="600" height="400">
+                    </a>
+                    <div class="desc">Core & Glutes</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="images/yinyoga.jpeg">
+                        <img src="images/yinyoga.jpeg" alt="yin yoga" width="600" height="400">
+                    </a>
+                    <div class="desc">Yin yoga</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="images/GentleFlow.jpeg">
+                        <img src="images/GentleFlow.jpeg" alt="Gentle Flow" width="600" height="400">
+                    </a>
+                    <div class="desc">Gentle Flow</div>
+                </div>
+            </div>
+            <div>
+                <div class="gallery">
+                    <a target="_blank" href="images/kidsyoga.jpeg">
+                        <img src="images/kidsyoga.jpeg" alt="Kids yoga" width="600" height="400">
+                    </a>
+                    <div class="desc">Kids yoga</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="images/privatesession.jpeg">
+                        <img src="images/privatesession.jpeg" alt="private class" width="600" height="400">
+                    </a>
+                    <div class="desc">Private 1:1</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="images/meditation3.jpeg">
+                        <img src="images/meditation3.jpeg" alt="Meditation" width="600" height="400">
+                    </a>
+                    <div class="desc">Meditation</div>
+                </div>
+            </div>
+        </div>
+        <div class="floatr container">
+            <div class="static2">
+                <h3 style="color: #000;">Get to know our instructor</h3>
+            </div>
+            <a href="instructor.html" target="new">
+                <div class="relative">
+                    <img src="images/Helana.jpeg">
+                    <div class="overlay">
+                        <div class="text">See profile</div>
+                    </div>
+                </div>
+            </a>
+            <div class="static"><br>
+                <p style="padding-left: 10px;">Helana Hazimi</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="row" style="border: 2px solid #E6B0AA; background-color: #E6B0AA; margin-top: 20px;">
+        <div class="col-3 col-s-4 menu">
+            <h3 id="contact">Contact Us</h3><br>
+            <ul>
+                <li>+961 70 449 657</li>
+                <a class="links" href="https://www.instagram.com/hasbaya_yoga_center/" target="new">
+                    <li>@hasbaya_yoga_center</li>
+                </a>
+                <a class="links" href="mailto:helana.hazimi@gmail.com" target="new">
+                    <li>helana.hazimi@gmail.com</li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="col-6 col-s-4">
+            <h3>Location</h3><br>
+            <p>Hasbaya</p>
+            <p>Facing the military dispensary</p>
+        </div>
+
+        <div style="padding-left: 7px;" class="col-3 col-s-4">
+            <h3>Follow Us</h3><br>
+            <img src="images/instagram.png">
+            <img src="images/facebook.png">
+            <img src="images/tiktok.png">
+        </div>
+
+        <div align="center" class="col-12 col-s-12">
+            <hr width="50%">
+        </div>
+
+        <div class="col-12 col-s-12">
+            <p style="text-align: center; margin-bottom: 10px;">Copy right 2024</p>
+        </div>
+
+        <div class="fixed">
+            <a href="#top">
+                <img src="images/logo1.png">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+<!----<div class="div1">
+    <h3>Contact Us</h3><br>
+    <ul>
+        <li>WhatsApp</li>
+        <li>Instagram</li>
+        <li>Email</li>
+    </ul>
+</div>
+<div class="div1" style="text-align: center;">
+    <h3>Location</h3><br><br><br>
+    <p>Hasbaya Souk</p>
+</div>
+<div class="float1">
+    <h3>Follow Us</h3><br>
+    <img src="images/instaLogo-modified.png">
+    <img src="images/facebook-modified.png">
+    <img src="images/tiktok-modified.png">
+</div> >

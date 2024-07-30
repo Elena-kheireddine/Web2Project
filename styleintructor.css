@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  /* Style the side navigation */
+  .sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+  }
+  
+  
+  /* Side navigation links */
+  .sidenav a {
+    color: grey;
+    text-decoration: none;
+  }
+
+  /* Style the image */
+  .sidenav img{
+    height: 300px;
+    width: 230px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 7px;
+  }
+  
+  /* Change color on hover */
+.sidenav a:hover {
+    background-color: #E6B0AA;
+    color: #fff;
+}
+  
+  /* Style the content */
+.content {
+    margin-left: 250px;
+}
+
+.content .img1{
+  float: left;
+  padding: 10px;
+  width: 280px;
+  height: 300px;
+}
+
+.content .ul1{
+  list-style-type: none;
+  margin-top: 40px;
+}
+
+.content .li1{
+  color: grey;
+}
+
+.content ul{
+  margin-top: 20px;
+}
+
+.content li{
+  color: grey;
+  padding-top: 10px;
+  padding: 10px;
+}
+
+.sidenav h3{
+    color: #E6B0AA;
+    margin-left: 10px;
+}
+
+.sidenav p{
+    color: grey;
+    margin-left: 10px;
+}
+
+h2{
+    border-bottom: 5px solid #E6B0AA;
+    color: grey;
+    margin-left: 10px;
+}
+
+h3{
+  color: grey;
+  margin-left: 10px;
+}
+
+h3.border{
+  background-color: antiquewhite;
+  border: 2px solid #E6B0AA;
+  border-left: 5px solid #E6B0AA;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+p.text{
+    color: grey;
+    text-align: center;
+    text-indent: 50px;
+    font-size: 18px;
+}
+
+img.circular{
+  border-radius: 50%;
+  width: 192px;
+  height: 192px;
+}
+
+.row::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+
+.menu ul{
+  margin: 0;
+  padding: 0;
+}
+
+.menu li{
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #E6B0AA;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.aside li{
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #E6B0AA;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+/* For mobile phone: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1{width: 8.33%;}
+    .col-s-2{width: 16.66%;}
+    .col-s-3{width: 25%;}
+    .col-s-4{width: 33.33%;}
+    .col-s-5{width: 41.66%;}
+    .col-s-6{width: 50%;}
+    .col-s-7{width: 58.33%;}
+    .col-s-8{width: 66.66%;}
+    .col-s-9{width: 75%;}
+    .col-s-10{width: 83.33%;}
+    .col-s-11{width: 91.66%;}
+    .col-s-12{width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}
+}
